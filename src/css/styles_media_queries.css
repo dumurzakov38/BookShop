@@ -1,0 +1,94 @@
+.nav__container {
+    justify-content: space-between;
+}
+.nav__btn__container {
+    display: flex;
+    align-items: center;
+}
+.nav__menu, .banners__coorusel-promo1-a, .banners__coorusel-promo2-a, .dnone {
+    display: none;
+}
+.nav__containermenu--block, .nav__btniconmenu {
+    display: block;
+}
+.nav__containermenu {
+/*    width: 54%;*/
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 47px 0px 40px;
+}
+.nav__btniconmenu {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav__btniconmenu button, .nav__containermenu__btniconclose button {
+    cursor: pointer;
+}
+.nav__btniconmenu img, .nav__containermenu__btniconclose img {
+    width: 30px;
+}
+.nav__containermenu__btniconclose {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav__containermenu__ulbtn {
+    list-style: none;
+    margin-top: 40px;
+    padding-inline-start: 0px;
+}
+.nav__containermenu__ulbtn li button a{
+    color: #5C6A79;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav__containermenu__ulbtn li button a:hover {
+    color: #1C2A39;
+    font-weight: 900;
+}
+
+.nav__containermenu__ulbtn li {
+        margin: 20px 0px;
+}
+
+@media (max-width: 440px) {
+    .nav__functional button {
+        margin: 0px 10px;
+    }
+    .nav__functional button:last-child {
+        margin: 0px 0px 0px 10px;
+    }
+}
+
+.book__katalog__result {
+  margin-left: -260px;	 
+}
+.book__katalog__result__aboutBook {
+    display: inline-block;
+}
+.book__katalog__result__aboutBook__info {
+  max-width: 205px;
+}
+.book__katalog__result__aboutBook__img img {
+  max-width: 205px;
+  min-width: 205px;
+  max-height: 280px;
+  min-height: 280px;
+}
+.book__katalog__result__aboutBook__img {
+  margin-right: 0px;
+}
+.book__katalog__result__btn__more {
+	width: 50%;
+}
+.book__katalog__result__btn__moreBtn {
+	width: 50px;
+}
+* {
+    font-size: 16px;
+}
